@@ -23,15 +23,14 @@ for (let i = 0; i < numberOfFilms; i++) {
     }
 }
 
+
+
 if (personalMovieDB.count < 3) {
     console.log('Too few movies!');
-
 } else if (personalMovieDB.count >= 3 && personalMovieDB.count < 6) {
     console.log('Not bad!');
-
 } else if (personalMovieDB.count >= 6) {
     console.log('Cool!');
-
 } else {
     console.log('Error!');
 }
