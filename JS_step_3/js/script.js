@@ -1,35 +1,9 @@
  "use strict";
 
- //   function showFirstMessage(text) {
- //       console.log(text);
- //       alert(text);
- //   }
-
- //   showFirstMessage("Hello world!");
-
- //   function calc(a, b) {
- //       return (a + b);
- //   }
-
- //   console.log(calc(4, 3));
- //   console.log(calc(5, 4));
- //   console.log(calc(6, 5));
-
- // const logg = "Hello world";
- // console.log(logg.indexOf("rl"));
- // console.log(logg.slice(0));
-
- // const arr = ["asd", "cvb", "ghj"];
- // console.log(arr[0]);
-
- // const str = "Hello world";
- // const strq = str.slice(3, 8);
- // console.log(strq);
-
  let numberOfFilms;
 
  function start() {
-     numberOfFilms = prompt('How many films have you already seen?', '');
+     numberOfFilms = +prompt('How many films have you already seen?', '');
 
      while (numberOfFilms == '' || numberOfFilms == null || isNaN(numberOfFilms)) {
          numberOfFilms = prompt('How many films have you already seen?', '');
@@ -61,7 +35,7 @@
      }
  }
 
- //  rememberMyFilms();
+ rememberMyFilms();
 
  function detectPersonalLevel() {
      if (personalMovieDB.count < 3) {
