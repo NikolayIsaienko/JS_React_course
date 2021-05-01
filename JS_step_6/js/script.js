@@ -25,26 +25,26 @@ document.addEventListener('DOMContentLoaded', () => {
         let newFilm = addInput.value;
         const favorite = checkbox.checked;
 
-        if(newFilm) {
+        if (newFilm) {
 
-            if(newFilm.length > 21) {
+            if (newFilm.length > 21) {
                 newFilm = `${newFilm.substring(0, 22)}...`;
             }
 
-            if(favorite) {
+            if (favorite) {
                 console.log('Add a favorite film!');
             }
             movieDB.movies.push(newFilm);
             sortArr(movieDB.movies);
             createMovieList(movieDB.movies, movieList);
-        } 
+        }
         event.target.reset();
     });
 
     const deleteAdv = (arg) => {
-        arg.forEach(item => { 
-        item.remove();
-     });
+        arg.forEach(item => {
+            item.remove();
+        });
     };
 
     const makeChanges = () => {
@@ -78,14 +78,3 @@ document.addEventListener('DOMContentLoaded', () => {
     makeChanges();
     createMovieList(movieDB.movies, movieList);
 });
-
- 
-
-
-
-
-
-
-
-
-
