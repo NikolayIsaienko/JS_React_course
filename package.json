@@ -1,0 +1,22 @@
+{
+  "name": "js_react",
+  "version": "1.0.0",
+  "description": "course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikolayIsaienko/JS_React_course.git"
+  },
+  "author": "Nikolay Isaienko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikolayIsaienko/JS_React_course/issues"
+  },
+  "homepage": "https://github.com/NikolayIsaienko/JS_React_course#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
