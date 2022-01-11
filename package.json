@@ -1,5 +1,5 @@
 {
-  "name": "js_react",
+  "name": "js_course",
   "version": "1.0.0",
   "description": "course",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NikolayIsaienko/JS_React_course.git"
+    "url": "git+https://github.com/NikolayIsaienko/JS_course.git"
   },
   "author": "Nikolay Isaienko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NikolayIsaienko/JS_React_course/issues"
+    "url": "https://github.com/NikolayIsaienko/JS_course/issues"
   },
-  "homepage": "https://github.com/NikolayIsaienko/JS_React_course#readme",
+  "homepage": "https://github.com/NikolayIsaienko/JS_course#readme",
   "devDependencies": {
     "json-server": "^0.17.0"
   }
